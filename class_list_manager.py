@@ -15,7 +15,7 @@ def count_names(names):
 
     return count
 
-#Written by: rawan alkahtani (task2)
+#Written by: rawan alkahtani (task2) 
 def search_name(names, name):
     for n in names:
         if n == name:
