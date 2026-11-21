@@ -15,15 +15,6 @@ def count_names(names):
 
     return count
 
-
-def main():
-    print("Welcome to the Class List Manager!")
-    print("Class list:", names)
-
-    print("Number of names:", count_names(names))
-
-main()
-
 #Written by: rawan alkahtani (task2)
 def search_name(names, name):
     for n in names:
@@ -31,9 +22,11 @@ def search_name(names, name):
             return True
     return False
 
+
 def main():
-    print("welcome to the Class List Manager!")
+    print("Welcome to the Class List Manager!")
     print("Class list:", names)
+    print("Number of names:", count_names(names))
     print("is Reem in the list?", search_name(names,"Reem"))
 
 main()
