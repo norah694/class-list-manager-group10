@@ -22,11 +22,15 @@ def search_name(names, name):
             return True
     return False
 
-
+# Written by: Alya (Task 3)
+def sort_names(names):
+    sorted_list = sorted(names)
+    return sorted_list
+    
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
     print("Number of names:", count_names(names))
     print("is Reem in the list?", search_name(names,"Reem"))
-
+    print("Sorted names:", sort_names(names))
 main()
