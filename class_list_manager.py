@@ -22,7 +22,7 @@ def search_name(names, name):
             return True
     return False
 
-# Written by: Alya (Task 3)
+# Written by: Alya Alehaideb (Task 3)
 def sort_names(names):
     sorted_list = sorted(names)
     return sorted_list
