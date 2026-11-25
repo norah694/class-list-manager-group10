@@ -26,7 +26,14 @@ def search_name(names, name):
 def sort_names(names):
     sorted_list = sorted(names)
     return sorted_list
-    
+# Written by: Alya bahanan (Task 4)
+def remove_duplicates(names):
+    new_list = []
+    for name in names:
+        if name not in new_list:
+            new_list.append(name)
+    return new_list
+
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
@@ -34,3 +41,4 @@ def main():
     print("is Reem in the list?", search_name(names,"Reem"))
     print("Sorted names:", sort_names(names))
 main()
+    print("Without duplicates:", remove_duplicates(names))
