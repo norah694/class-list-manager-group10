@@ -40,5 +40,5 @@ def main():
     print("Number of names:", count_names(names))
     print("is Reem in the list?", search_name(names,"Reem"))
     print("Sorted names:", sort_names(names))
-main()
     print("Without duplicates:", remove_duplicates(names))
+main()
